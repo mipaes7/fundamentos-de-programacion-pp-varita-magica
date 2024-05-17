@@ -39,10 +39,10 @@ parrafos.forEach(element => {
 });
 articles.forEach(element => {
     element.addEventListener('click', event => {
-        let colors = ['#8ECAE6', '#219EBC', '#023047', '#FFB703', '#FB8500'];
-        let randomColor = Math.floor(Math.random() * 4) + 1;
-        element.setAttribute('style', `background: (${colors}[${randomColor})]`);
-        // element.setAttribute('style', 'background: purple');
+        // let colors = ['#8ECAE6', '#219EBC', '#023047', '#FFB703', '#FB8500'];
+        // let randomColor = Math.floor(Math.random() * 4) + 1;
+        // element.setAttribute('style', `background: (${colors}[${randomColor})]`);
+        element.setAttribute('style', 'background: purple');
     })
 });
 articles.forEach(element => {
