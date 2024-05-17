@@ -46,7 +46,7 @@ articles.forEach(element => {
     })
 });
 articles.forEach(element => {
-    element.addEventListener('mouseover', event => {
+    element.addEventListener('mouseover', () => {
         element.setAttribute('style', `background: ${getRandom(colors)}`);
     })
 });
